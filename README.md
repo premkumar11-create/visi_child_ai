@@ -16,11 +16,6 @@ First, lets focus on how to capture the locator file:
 
 <?xml version="1.0" encoding="UTF-8"?>
 <uiElements>
-	<uiElement name="TakeMeBackButton">
-		<identifier platform="web" type="xpath">//*[@text='LATER, TAKE ME BACK']
-		</identifier>
-	</uiElement>
-
 	<uiElement name="ProfileIcon">
 		<identifier platform="android" type="xpath">//*[@text='Profile']
 		</identifier>
@@ -36,6 +31,7 @@ First, lets focus on how to capture the locator file:
 Testers should write feature file by following below format:
 
 User navigate to {string} application                                       - Paramater should be Application Url key from property file
+
 User verify {string} displayed in the page                                  - locator name as string
 User verify {string} present in the page                                    - locator name as string
 User press enter key on {string}                                            - locator name as string
