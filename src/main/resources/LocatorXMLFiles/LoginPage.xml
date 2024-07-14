@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiElements>
+
+
+	<uiElement name="LoginSignUpButton">
+		<identifier platform="android" type="xpath">//*[@text='LOG IN/SIGN UP']
+		</identifier>
+		<identifier platform="web" type="xpath">//a[text()='login / Signup']
+		</identifier>
+	</uiElement>
+
+
+	<uiElement name="LoginSignUpPageBanner">
+		<identifier platform="android" type="xpath">(//android.widget.ImageView)[2]
+		</identifier>
+		<identifier platform="web" type="xpath">//img[@class='img-responsive preLoad loaded']
+		</identifier>
+	</uiElement>
+
+
+	<uiElement name="MobileNumberInputFeild">
+		<identifier platform="android" type="xpath">//*[@content-desc='mobile']
+		</identifier>
+		<identifier platform="web" type="xpath">//input[@type='tel']
+		</identifier>
+	</uiElement>
+
+	<uiElement name="LoginContinueButton">
+		<identifier platform="android" type="xpath">//*[@text='CONTINUE']
+		</identifier>
+		<identifier platform="web" type="xpath">//div[text()='CONTINUE']
+		</identifier>
+	</uiElement>
+
+	<uiElement name="VerifyOtpHeader">
+		<identifier platform="android" type="xpath">//*[@text='Verify with OTP']</identifier>
+		<identifier platform="web" type="xpath">//h3[text()='Verify with OTP']</identifier>
+	</uiElement>
+
+	<uiElement name="ContinueWithPassWordLink">
+		<identifier platform="android" type="xpath">//span[contains(text(),'Password')]
+		</identifier>
+		<identifier platform="web" type="xpath">//h3[text()='Verify with OTP']</identifier>
+	</uiElement>
+
+	<uiElement name="PassWordInputFeild">
+		<identifier platform="android" type="xpath">//*[@content-desc='password']
+		</identifier>
+		<identifier platform="web" type="xpath">//input[@type='password']
+		</identifier>
+	</uiElement>
+
+	<uiElement name="LoginButton">
+		<identifier platform="android" type="xpath">//*[@content-desc='form-button']
+		</identifier>
+		<identifier platform="web" type="xpath">//button[text()='LOGIN']
+		</identifier>
+	</uiElement>
+
+</uiElements>

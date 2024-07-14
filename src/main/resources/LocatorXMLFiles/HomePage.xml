@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiElements>
+
+	<uiElement name="TakeMeBackButton">
+		<identifier platform="android" type="xpath">//*[@text='LATER, TAKE ME BACK']
+		</identifier>
+	</uiElement>
+
+	<uiElement name="ProfileIcon">
+		<identifier platform="android" type="xpath">//*[@text='Profile']
+		</identifier>
+		<identifier platform="web" type="xpath">//span[text()='Profile']
+		</identifier>
+	</uiElement>
+
+
+</uiElements>
