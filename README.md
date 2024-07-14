@@ -1,14 +1,18 @@
-#**VISI Child Test Automation Framework with AI Support**
+# **VISI Child Test Automation Framework with AI Support**
 
-Our Goal is to create a No Code / Low Code automation framework, which helps any tester (manual / non-functional testers) to write the test automation code with out minimal knowledge on java / selenium / framework experience.
+## **Goal**
+Our goal is to create a No Code / Low Code automation framework that enables any tester, whether manual or non-functional, to write test automation code with minimal knowledge of Java, Selenium, or framework experience.
 
-This framework is based on Cucumber BDD Approach which also includes Page Object Model and Junit for execution and validations. It is built using Maven.
+## **Framework Overview**
+This framework is based on the Cucumber BDD approach, incorporating the Page Object Model and JUnit for execution and validations. It is built using Maven.
 
-As part of cucumber Bdd framework:
-Testers should follow 3 files,
-  1. Feature File
-  2. Step Definition
-  3. Test Runner
+### **Cucumber BDD Framework Components**
+Testers should work with the following three files:
+
+1. **Feature File:** Defines the test scenarios in a readable format.
+2. **Step Definition:** Maps the steps in the feature file to code.
+3. **Test Runner:** Executes the test cases.
+
 
 -------------------------------------------------------------
 
