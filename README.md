@@ -14,7 +14,7 @@ Testers should follow 3 files,
 
 First, lets focus on how to capture the locator file:
 
-<?xml version="1.0" encoding="UTF-8"?>
+**<?xml version="1.0" encoding="UTF-8"?>
 <uiElements>
 	<uiElement name="ProfileIcon">
 		<identifier platform="android" type="xpath">//*[@text='Profile']
@@ -22,7 +22,7 @@ First, lets focus on how to capture the locator file:
 		<identifier platform="web" type="xpath">//span[text()='Profile']
 		</identifier>
 	</uiElement>
-</uiElements>
+</uiElements>**
 
 -> Here we can create uiElement tag in Page.xml file where tester needs to call identifer tag and pass platform and type of locator with value as text, here is sample xml file and it is maintained in src/main/resources and call it in feature file by pagename.locatorname
 
