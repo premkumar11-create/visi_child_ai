@@ -10,7 +10,7 @@
 		<repository>
 			<id>github</id>
 			<name>VISI AI Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/premkumar11-create/visi_parent_ai</url>
+			<url>https://maven.pkg.github.com/premkumar2512/visi_parent_ai</url>
 		</repository>
 	</repositories>
 
