@@ -2,7 +2,7 @@
 Feature: Verify Myntra Login Functionality
 
 Scenario: Verify user able to search any keywords
-Given User navigate to 'mynta' application
+Given User navigate to 'automationExercise' application
 Then User verify 'Home.ProfileIcon' present in the page
 When User clicks on 'Home.ProfileIcon'
 Then User verify 'Login.LoginSignUpButton' present in the page

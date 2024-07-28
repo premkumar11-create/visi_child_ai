@@ -45,7 +45,7 @@ under the License.
  |-->
 <settings xmlns="http://maven.apache.org/SETTINGS/1.2.0"
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 https://maven.apache.org/xsd/settings-1.2.0.xsd">
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 http://maven.apache.org/xsd/settings-1.2.0.xsd">
   <!-- localRepository
    | The path to the local repository maven will use to store artifacts.
    |
@@ -151,7 +151,7 @@ under the License.
     <servers>
       <server>
         <id>github</id>
-        <username>premkumar2512</username> <password>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</password>
+        <username>premkumar2512</username> <password>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</password>
       </server>
     </servers>
 

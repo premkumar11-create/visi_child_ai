@@ -17,7 +17,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/FeatureFiles", glue = { "com.visi.stepdef",
-		"com.visi.Hooks" }, tags = "@MyntraLogin", dryRun = false, plugin = { "pretty", "json:target/cucumber.json",
+		"com.visi.Hooks" }, tags = "@GetUser", dryRun = false, plugin = { "pretty", "json:target/cucumber.json",
 				"html:target/cucumber.html", "rerun:src/test/resource/rerun.txt" })
 public class TestRunner extends WebUtils {
 
